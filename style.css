@@ -1,0 +1,115 @@
+body {
+  font-family: monospace;
+}
+
+.menu {
+  margin: 1.5rem;
+}
+
+.block {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(to top, #c6ffdd 0%, #fbd786 30%, #f7797d 100%);
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+}
+
+h3 {
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+}
+
+.vertical {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.vertical input {
+  transform: rotate(90deg);
+  width: 75px;
+}
+
+.vertical label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75px;
+}
+
+.wrapper {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.horizontal {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.horizontal input {
+  width: 100px;
+}
+
+.horizontal label {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ok-shape {
+  margin-top: 10px;
+  font-family: monospace;
+}
+
+#shape-select {
+  font-family: monospace;
+}
+
+.hex-container {
+  width: 100px;
+  margin: 40px auto 0;
+}
+
+#hex {
+  width: 80px;
+}
+
+.rgba-container {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.rgba-container input {
+  width: 88px;
+  display: inline-block;
+}
+
+.container {
+  margin-top: 44px;
+  margin-left: 23px;
+  position: relative;
+}
+
+#block {
+  width: 180px;
+  height: 180px;
+  background-color: #f7797d;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
